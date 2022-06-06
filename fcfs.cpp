@@ -18,7 +18,8 @@ int flag=0;
 
 int main()
 {
-int num,totalwt=0,totaltat=0,lastct=0;
+int num,totalwt=0;
+float totaltat=0,lastct=0;
 cout<<"\nenter number of process:";
 cin>>num;
 for(int i=0;i<num;i++)
